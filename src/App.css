@@ -80,7 +80,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 0 30px;
+  padding: 0 0 0 30px;
   justify-content: center;
   /*background-color: blue;*/
 }
@@ -100,7 +100,7 @@ nav a:hover {
 .info {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .info_box {
@@ -114,7 +114,7 @@ nav a:hover {
 }
 
 #main-info {
-  width: 695px;
+  width: 708px;
 
 }
 
@@ -148,6 +148,20 @@ nav a:hover {
 .info_element__value {
   margin-bottom: 10px;
 }
+
+
+/*Кнопки*/
+.button_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button_list__element {
+  background-color: black;
+  padding: 10px 20px;
+}
+
 
 
 

@@ -22,7 +22,15 @@ function App() {
                 <div className="avatar">
                     <img src="https://sun9-45.userapi.com/PLejB1LEaFNFRix3xvrVHrhjQkms_LXyXtjZlw/mOShDRPMbRo.jpg" alt=""/>
                  </div>
-                <div className="fullname"><p className="name">Дмитрий Юсупов</p><p className="status">Занимаюсь херней и делаю эту социальную сеть</p></div>
+                <div className="fullname">
+                    <p className="name">Дмитрий Юсупов</p>
+                    <p className="status">Занимаюсь херней и делаю эту социальную сеть</p>
+                    <div className="button_list">
+                        <div className="button_list__element">Отправить сообщение</div>
+                        <div className="button_list__element">Добавить в друзья</div>
+                        <div className="button_list__element">Пожпловаться на разрабов</div>
+                    </div>
+                </div>
             </div>
             <div className="info">
                 <div className="info_box">
