@@ -46,9 +46,8 @@ nav a:hover {
 
 .content .container {
   display: flex;
-  margin: ;
   width: 1160px;
-  border: black 1px solid;
+  border: #191819 1px solid;
   flex-direction: column;
   box-sizing: border-box;
   padding: 30px 30px 0 30px;
@@ -57,13 +56,15 @@ nav a:hover {
 .name-box {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   /*background-color: blueviolet;*/
+  margin-bottom: 50px;
 }
 .avatar {
   width: 150px;
   height: 150px;
-  margin-right: 80px;
+  margin-right: 105px;
+  margin-left: 105px;
   /*background-color: cyan;*/
 }
 
@@ -78,7 +79,7 @@ nav a:hover {
 .fullname {
   display: flex;
   flex-direction: column;
-  /*flex-grow: 1;*/
+  flex-grow: 1;
   padding: 0 30px;
   justify-content: center;
   /*background-color: blue;*/
@@ -94,3 +95,62 @@ nav a:hover {
 .status {
   font-size: 14px;
 }
+
+/*Информация_Блок*/
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info_box {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  height: 250px;
+  background-color: #191819;
+  box-sizing: border-box;
+  /*border: black 2px solid;*/
+}
+
+#main-info {
+  width: 695px;
+
+}
+
+#main-info .info_element__key {
+  width: 230px;
+}
+.info_title {
+  display: flex;
+  background-color: black;
+  line-height: 35px;
+  justify-content: center;
+}
+
+.info_list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.info_element {
+  display: flex;
+  flex-direction: row;
+}
+.info_element__key {
+  width: 130px;
+  text-align: right;
+  padding-right: 20px;
+  margin-bottom: 10px;
+
+}
+.info_element__value {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
